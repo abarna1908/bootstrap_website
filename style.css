@@ -1,0 +1,223 @@
+body{
+    font-family:  'Catamaran', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.navbar .navbar-brand {
+  padding-top: 5px;
+}
+.carousel-inner .item{
+    height: 100vh;
+}
+.carousel-inner .item img{
+    filter: brightness(50%);
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color:rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    transition: 0.9s;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-weight: 500;
+}
+.affix.navbar-default{
+    background-color: rgba(0,0,0,0.5) none repeat scroll 0 0;
+}
+.main-text p{
+    font-size: 15px;
+    max-width: : 800px;
+}
+.main-text h1{
+    color: #fff;
+}
+    
+.main-text {
+    position: absolute;
+    top: 40%;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+h1{
+    font-weight: bold;
+}
+.heading-para{
+    max-width: 700px;
+}
+#about-us{
+    width: 95%;
+}
+section{
+    display: block;
+}
+.section-heading{
+    padding-top: 5%;
+}
+.bsicon img{
+   max-width: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+.col-center{
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+p{
+    text-align:justify;
+}
+.fix-margin{
+    margin-top: 2%;
+}
+.linkicon{
+    max-width: 70px;
+    max-height: 70px;
+}
+#services{
+    background-color: rgba(66, 134, 244, 0.9);
+    color: white;
+    width: 100%;
+}
+.para-size{
+    font-size: 18px;
+}
+
+.service-desc{
+    margin: 10px;
+    transition: 1s;
+    height: 100%;
+}
+.service-desc:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #2a5daf;
+    height: 120%;
+}
+.service-desc:hover p{
+    font-size: 20px;
+}
+.service-desc:hover img{
+    filter: brightness(100%);
+}
+.service-desc img{
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    filter: brightness(80%);
+    transition: 1s;
+    border-radius: 50%;
+}
+#gallery{
+    width: 100%;
+    display: block;
+    clear: both;
+}
+.gallery-details{
+    position: relative;
+   width: 300px;
+    padding: 0;
+    margin: 0;
+   height: 200px;
+   margin-bottom: 15px;
+}
+.gallery-details img{
+   width: 100%;
+   height: 100%;
+}
+
+.gallery-details .inner_box{
+      position:absolute;
+      background:rgba(42,93,175,0.7);
+      width: 50%;
+      height: 50%;
+      opacity: 1;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      text-align:center;
+    transition: 1s;
+    color: #fff;
+    opacity: 0;
+}
+.gallery-details:hover .inner_box{
+    width: 100%;
+      height: 100%;
+    opacity:1;
+}
+#contact-us{
+    background-color: rgba(66, 134, 244, 0.9);
+    color: white;
+    width: 100%;
+    clear: both;
+}
+.glyphicon{
+  font-size: 35px;
+}
+form{
+     display: inline-block;
+    text-align: center;
+}
+input, textarea{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(66, 134, 244);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    width: 30%;
+    color: white;
+    background-color: rgba(66, 134, 244, 0.9);
+    border: 1px solid white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 5px;
+}
+input[type="submit"]:hover{
+   background-color: #fff;
+    color:rgba(66, 134, 244, 0.9);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    p, .para-size{
+    font-size: 12px;
+}
+   h1{
+    font-size: 20px;
+}
+    .service-desc:hover p{
+    font-size: 13px;
+}
+    .images{
+    margin: 5px;
+}
+    .images div{
+   width: 180px;
+   height: 150px;
+  
+}
+    input, textarea{
+    width: 70%;
+    }
