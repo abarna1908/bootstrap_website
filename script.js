@@ -9,10 +9,11 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start < offset.top) {
-          $(".navbar-default").css('background-color', 'rgba(0, 0, 0, 0)');
-       } else {
           var b=document.getElementsByClassName("navbar-toggle");
            if(!isvisible(b[0]))
+          $(".navbar-default").css('background-color', 'rgba(0, 0, 0, 0)');
+       } else {
+          
           $('.navbar-default').css('background-color', 'rgba(0, 0, 0, 0.9)');
        }
    });
