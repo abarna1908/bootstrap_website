@@ -2,13 +2,14 @@ $(document).ready(function(){
      $('#cHeading').hide(0).delay(500).fadeIn(1000);
      $('#cPara').hide(0).delay(1500).fadeIn(1000);
      $('.nav').localScroll({duration:800});
-    var b=document.getElementsByClassName("navbar-toggle");
-           if(!isvisible(b[0])){
+    
    var scroll_start = 0;
    var startchange = $('#about-us');
    var offset = startchange.offset();
     if (startchange.length){
    $(document).scroll(function() { 
+       var b=document.getElementsByClassName("navbar-toggle");
+           if(!isvisible(b[0])){
       scroll_start = $(this).scrollTop();
        
       if(scroll_start < offset.top) {
